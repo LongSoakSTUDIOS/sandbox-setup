@@ -1,0 +1,2 @@
+alias ga='git add'
+
