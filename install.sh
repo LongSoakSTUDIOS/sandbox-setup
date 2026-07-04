@@ -7,7 +7,7 @@ REPO="holbertonschool-shell"
 if [[ -f ~/.bashrc ]]; then
 	mv $HOME/.bashrc $HOME/.bashrc.bak;
 fi
-wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/sandbox-setup/main/bashrc
+wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/sandbox-setup/main/install.sh
 echo "bashrc added"
 
 if [[ -f ~/.bash_aliases ]]; then
