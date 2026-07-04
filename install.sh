@@ -7,13 +7,13 @@ REPO="holbertonschool-shell"
 if [[ -f ~/.bashrc ]]; then
 	mv $HOME/.bashrc $HOME/.bashrc.bak;
 fi
-wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/sandbox-setup/blob/main/bashrc
+wget -qO ~/.bashrc https://raw.githubusercontent.com/$USERNAME/sandbox-setup/main/bashrc
 echo "bashrc added"
 
 if [[ -f ~/.bash_aliases ]]; then
 	mv $HOME/.bash_aliases $HOME/.bash_aliases.bak;
 fi
-wget -qO ~/.bash_aliases https://raw.githubusercontent.com/$USERNAME/blob/main/bash_aliases
+wget -qO ~/.bash_aliases https://raw.githubusercontent.com/$USERNAME/sandbox-setup/main/bash_aliases
 echo "aliases added"
 
 git config --global user.email "$USEREMAIL";
