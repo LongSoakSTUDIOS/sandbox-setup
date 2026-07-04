@@ -23,7 +23,7 @@ git config --global credential.helper 'cache --timeout=7200';
 GrabRepo()
 {
 	read -p "Please enter your repo name :" REPO;
-	if [! -d "$HOME/$REPO ]; then
+	if [! -d "$HOME/$REPO"]; then
 		git clone "https://github.com/$USERNAME/$REPO.git";
 	fi
 }
