@@ -41,12 +41,12 @@ rmdf()
 		for d in "${DF[@]}"; do
 			if [[ -d "$HOME/$d" || -f "$HOME/$d" ]]; then
 				rm -r "$d";
-																																	fi;
-																																done		
-																															else
-																																echo "not removing";
-																																
-																																fi
-																															}
-																			rmdf
-																			source ~/.bashrc
+			fi;
+		done		
+	else
+		echo "not removing";
+	fi
+}
+
+rmdf
+source ~/.bashrc
