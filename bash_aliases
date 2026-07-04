@@ -1,2 +1,10 @@
 alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+alias gf='git fetch'
+alias gl='git log --oneline --graph --decorate --branches --all'
+alias la='ls -la'
+alias ..='cd ../'
+alias ...='cd ../../'
 
